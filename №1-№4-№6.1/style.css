@@ -1,0 +1,57 @@
+header {
+border: 50px solid rgb(198, 202, 222);
+}
+h1 {
+    border: 10px solid rgb(235, 237, 255);
+    font-size: 2em;
+}
+h2 {
+    border: 10px solid rgb(198, 202, 222); 
+}
+li{
+    border: 5px solid rgb(235, 237, 255); 
+}
+dt {
+    border: 10px solid rgb(198, 202, 222);   
+}
+cite {
+    border: 5px solid rgb(235, 237, 255);
+}
+ .page-footer{
+    padding: 20px;
+    background-color: rgb(198, 202, 222)
+}
+body{
+    color: rgb(75, 76, 84);
+    font-size: 16px;
+    line-height: 26px;
+    background: #ffffff url("bg.png") no-repeat top center;
+}
+nav >:nth-child(6){
+font-size: 23px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 50%;
+margin: 0 auto;
+flex-grow: 0;
+flex-shrink: 1;
+color:red;
+flex-basis: 50%;
+flex-direction: column;
+}
+main{
+    border:  solid  #2d508f;   
+}
+.skills dd {
+    background-color: #e8e8e8;
+    margin: 0;
+    margin-bottom: 10px;
+    }
+    .skills-level{
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #47bb52;
+    }

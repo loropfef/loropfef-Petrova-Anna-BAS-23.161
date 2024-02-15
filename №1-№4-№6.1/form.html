@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="вёрстка, HTML, CSS, обучение">
+  <meta name="description" content="Мой первый сайт">
+  <title>Сайт ученика группы БАС-23.161 Петрова А.Н.</title>
+  </head>
+  <body>
+<header>
+<h1>Анкета</h1>
+</header>
+<nav>
+     <a href = "https://natk.ru/">НАТК</a>
+    <a download href="form.html">Анкета</a>
+<nav>
+<form action="#" method="get" enctype="multipart/form-data">
+     <label>
+	     Ваше имя<input type="text" name="username" placeholder="Текст подсказки" required>
+		 
+     </label><br>
+	    <label for="user-field-id">Фамилия</label>
+		    <input id="user-field-id" type="text" name="username" placeholder="Текст подсказки" required>
+		     Введите пароль<input type="password" name="password"><br>
+			  </label>
+			  <label>
+			     <textarea  cols = 75 rows = 25> Несколько слов о себе:</textarea>
+			</label><br>
+         <label for="question">Вы студент?</label><br>
+                 <input type =""checkbox" checked id="question" placeholder="Текст подсказки">
+     <p>Где ты учишься?</p>
+            	<label>
+			<input type="radio" name="eduorg" value="school">
+				Школа
+				</label>
+				<label>
+			<input type="radio" name="eduorg" value="college">
+				Колледж
+				</label>
+				<label>
+			<input type="radio" name="eduorg" value="university">
+				Университет
+				</label><br>
+				<label>
+				<select name="Ваш год рождения?">
+				<option value = "2002">2002</option>
+				<option value = "2003">2003</option>
+				<option value = "2004">2004</option>
+				<option value = "2005">2005</option>
+				<option value = "2006">2006</option>
+				</select>
+								</label>
+
+				<label>
+		    <input type="file" name="profilepic" hidden>
+		<p>Добавьте Ваше фото</p>
+			    </label>
+				<input type="submit">
+				<label>
+				<input type="date">
+		<p>Дата окончания обучения:</p>
+				</label>
+				<label>
+		<p>Твой номер телефона:</p>
+		        <input type="tel">
+		        </label>
+				<label>
+		<p>Личная почта:</p>
+				<input type="email">
+				</label>
+				<label>
+		<p>Сайт:</p>
+				<input type="url">
+				<input type="reset" value="Сбросить">
+				</label>
+    </form>

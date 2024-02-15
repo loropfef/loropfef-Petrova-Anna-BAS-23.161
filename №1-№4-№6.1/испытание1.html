@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="вёрстка, HTML, CSS, обучение">
+  <meta name="description" content="Мой первый сайт">
+  <title>Сайт ученика группы БАС-23.161 Петрова А.Н.</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<header>
+<h1>Заявка на принятие в команду</h1>
+</header>
+<form ="#" method="get" enctype="multipart/form-data">
+    <label>
+	    <p>Имя<input type="text" name="username" placeholder="Введите своё имя" required></p>
+        </label><br>
+		<label>
+		 <p>Почта<input type="text" name="pochta" placeholder="example@somemail.xxx"=required="tel"></p>
+		 </label>
+		 <label>
+		<p>Введите пароль<input type="password" name="vedite parol" placeholder="Более 8 символов" required></p>
+                </label>
+				<label>
+		<p>Телефон<input type="text" name="telefon" placeholder="8-***-***-**-**" required></p>
+		        </label>
+	            <label>
+			Пол<input type="radio" name="eduorg" value="woman">
+				Женский
+				</label>
+				<label>
+			<input type="radio" name="eduorg" value="man">
+				Мужской
+				</label>
+				<label>
+			<p>Имею скилл в:<input type="checkbox"value"radio" name="eduorg" value="cs"></p>
+				CS
+				</label>
+				<label>
+			<input type="checkbox"value"radio" name="eduorg" value="Dota">
+				Dota
+				</label>
+				<label>	
+				<input type ="checkbox"value"radio" name="eduorg" value="OverWatch"disabled>
+				OverWatch
+				</label><br>
+				<label>
+			     <textarea  cols = 25 rows = 5> Кратко о себе:</textarea>
+			</label><br>
+			<label>
+		    <input type="file" name="profilepic" hidden disabled>
+		<p>Прикрепить фото</p>
+			    </label>
+		   <label>
+				<select multiple name="Играешь на своём компе?">
+				<option value ="Да, только из дома">Да, только из дома</option>
+				<option value ="Нет, могу на вашем"> Нет, могу на вашем</option>
+				<option selected value="Да, ноут могу играть откуда угодно"> Да, ноут могу играть откуда угодно</option>
+				</select>
+			<label>
+			<input type="reset" value="Сбросить">	
+			<input type="submit">
+			</label>
+</form>
